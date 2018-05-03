@@ -3,11 +3,19 @@
 /// import Field from '../field/field'
 
 
-function superUsefulll () {
+export function superUsefulll () {
 
 }
 
-export default class App {
+export function superUsefulll1() {
+
+}
+
+export function superUsefulll2() {
+
+}
+
+class App {
 	constructor({
 		el,
 		data,
@@ -16,8 +24,11 @@ export default class App {
 	}
 
 	render() {
-		this.el.append(`
+		this.el.innerHTML = `
 			<h1>Приложение запущено</h1>
-		`);
+		`;
 	}
 }
+
+
+export default App;
